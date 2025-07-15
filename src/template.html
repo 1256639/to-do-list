@@ -3,9 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>To-Do List</title>
+    <title>Todo List</title>
 </head>
 <body>
-    
+    <div class="container">
+        <header>
+            <h1>Project and task manager</h1>
+        </header>
+        <div class="content">          
+             <div class="sidebar">
+                <h2>Project</h2>
+                <div class="project-list">
+                    <div class="project active" data-project-id="default">
+                        <span class="project-name">Default project</span>
+                    </div>                  
+                </div>
+                <button class="btn add-project-btn">+ Add Project</button>
+             </div>
+
+             <div class="todos-container">
+                <div class="todos-header">
+                    <h2 class="current-project-name">Default project</h2>
+                    <button class="btn add-todo-btn">+ Add Task</button>
+                </div>
+                <div class="todos-list"></div>
+             </div>
+        </div>
+        <div class="footer">
+            <p>1256639&copy;</p>
+        </div>
+    </div>
 </body>
 </html>
